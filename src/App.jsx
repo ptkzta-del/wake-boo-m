@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { ClockDisplay, CountdownDisplay, AlarmSetter, SoundSelector, VolumeControl, useAlarmSound } from "./components/alarm/AlarmComponents";
